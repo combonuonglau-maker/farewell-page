@@ -1,1 +1,50 @@
-index.html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>👋 Lời chia tay nhỏ</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fce3ec, #c8d6ff);
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 40px;
+      color: #ff4d6d;
+    }
+    p {
+      font-size: 18px;
+      margin: 20px auto;
+      max-width: 600px;
+      line-height: 1.6;
+    }
+    .gif {
+      margin: 30px 0;
+    }
+    .signature {
+      font-style: italic;
+      color: #555;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>💖 Tạm biệt nhé!</h1>
+  <p>Chúng ta đã cùng làm việc, cùng cười, và đôi khi cùng "bối rối" vì deadline 😅<br>
+  Cảm ơn em vì những kỷ niệm thật đẹp!</p>
+
+  <div class="gif">
+    <img src="https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif" alt="Goodbye" width="300">
+  </div>
+
+  <p>Chúc bé Lỳ luôn thành công, vui vẻ và gặp nhiều may mắn ở hành trình mới!<br>
+  Đừng quên mọi người đó nha 🥹</p>
+
+  <div class="signature">
+    — Từ team Acct: C Elise, Lam, Chip, Kym, Dilys, Hailey, Katlyn, Lena, Nova
+  </div>
+</body>
+</html>
