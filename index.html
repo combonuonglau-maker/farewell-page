@@ -29,6 +29,15 @@
       color: #555;
       margin-top: 40px;
     }
+    .music-button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 10px;
+      background-color: #ffcad4;
+      border: none;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -47,10 +56,22 @@
     — Team Acct: C Elise, Lam, Chip, Kym, Dilys, Hailey, Katlyn, Lena, Nova
   </div>
 
-  <!-- 🎵 Nhạc nền -->
-  <audio autoplay loop hidden>
+  <!-- Nhạc nền + nút bật/tắt -->
+  <audio id="bgmusic" loop>
     <source src="https://dl.dropboxusercontent.com/scl/fi/49xz5p6zq9oy2nkef2ydv/Cam-Tay-Nhau-Buoc-Ben-Nhau.mp3?rlkey=ae6v8xoyud1s5bfwx4vznq07p&dl=0" type="audio/mpeg">
-    Trình duyệt của bạn không hỗ trợ phát nhạc.
   </audio>
+
+  <button class="music-button" onclick="toggleMusic()">🎵 Bật / Tắt nhạc</button>
+
+  <script>
+    const music = document.getElementById('bgmusic');
+    function toggleMusic() {
+      if (music.paused) {
+        music.play();
+      } else {
+        music.pause();
+      }
+    }
+  </script>
 </body>
 </html>
